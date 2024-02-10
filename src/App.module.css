@@ -1,0 +1,14 @@
+.main {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main p {
+  margin: 16px 0;
+}
+
+.logo {
+  margin: 0 auto;
+  padding-top: 60px;
+}

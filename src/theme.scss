@@ -1,0 +1,16 @@
+$text: #eae9fc;
+$background: #040413;
+$primary: #3a31d8;
+$secondary: #020024;
+$accent: #0600c2;
+
+$theme-colors: (
+  "someColor": #000,
+  "anotherColor": #fff,
+);
+
+:export {
+  @each $key, $value in $theme-colors {
+    #{unquote($key)}: $value;
+  }
+}
